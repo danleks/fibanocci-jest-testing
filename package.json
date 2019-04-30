@@ -2,7 +2,7 @@
   "name": "fibonacci-jest-testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fibonnacci.js",
   "scripts": {
     "test": "jest"
   },
@@ -11,5 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.7.1"
-  }
+  },
+  "dependencies": {}
 }
