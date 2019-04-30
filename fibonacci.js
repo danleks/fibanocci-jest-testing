@@ -23,6 +23,7 @@ const fibonacci = (num) => {
 
 const input = document.querySelector('.main__input');
 const sequence = document.querySelector('.main__sequence');
+const main = document.querySelector('.main');
 
 input.addEventListener('input', (e) => {
   let num_local = e.target.value;
@@ -32,5 +33,11 @@ input.addEventListener('input', (e) => {
   if (e.target.value === '') {
     sequence.innerHTML = '';
   };
+
+  if (parseInt(e.target.value) > 70) {
+    main.style.justifyContent = 'flex-start';
+  } else {
+    main.style.justifyContent = 'center';
+  }
 
 });
