@@ -4,7 +4,8 @@
   "description": "",
   "main": "fibonnacci.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,7 @@
   "devDependencies": {
     "jest": "^24.7.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
