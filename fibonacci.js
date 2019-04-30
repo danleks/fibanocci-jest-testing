@@ -37,7 +37,7 @@ input.addEventListener('input', (e) => {
   if (parseInt(e.target.value) > 30) {
     main.style.transform = 'translateY(-25%)';
   } else {
-    main.style.transform = 'translateY(-25%)';
+    main.style.transform = 'translateY(0)';
   }
 
 });
