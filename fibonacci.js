@@ -34,10 +34,10 @@ input.addEventListener('input', (e) => {
     sequence.innerHTML = '';
   };
 
-  if (parseInt(e.target.value) > 70) {
-    main.style.justifyContent = 'flex-start';
+  if (parseInt(e.target.value) > 30) {
+    main.style.transform = 'translateY(-250px)'
   } else {
-    main.style.justifyContent = 'center';
+    main.style.transform = 'translateY(0px)'
   }
 
 });
